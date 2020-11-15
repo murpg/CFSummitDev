@@ -1,0 +1,37 @@
+!git config user.email "georgemurphy@websbygeorge.com"
+!git config user.name "George Murphy"
+
+box coldbox create app CFSummitDev
+!git add -A
+!git commit -am "upload app"
+!git push
+
+box coldbox create handler stepOne index,list
+!git add -A
+!git commit -am "upload stepOne"
+!git push
+
+box coldbox create handler stepTwo index,list
+!git add -A
+!git commit -am "upload stepTwo"
+!git push
+
+box coldbox create handler stepThree index,list
+!git add -A
+!git commit -am "upload stepThree"
+!git push
+
+box coldbox create handler stepFour index,list
+!git add -A
+!git commit -am "upload stepFour"
+!git push
+
+box coldbox create handler stepFive index,list
+!git add -A
+!git commit -am "upload stepFive"
+!git push
+
+box coldbox create handler stepSix index,list
+!git add -A
+!git commit -am "upload stepSix"
+!git push
